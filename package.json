@@ -1,5 +1,5 @@
 {
-  "name": "uawe",
+  "name": "web",
   "version": "1.0.0",
   "description": "",
   "main": "",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tantakan/uawe.git"
+    "url": "git+https://github.com/uoawe/web.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tantakan/uawe/issues"
+    "url": "https://github.com/uoawe/web/issues"
   },
-  "homepage": "https://github.com/tantakan/uawe#readme"
+  "homepage": "https://github.com/uoawe/web#readme"
 }
