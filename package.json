@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "dependencies": {
-    "eslint": "^4.15.0",
+    "eslint": "^4.19.1",
     "htmlhint": "^0.9.13",
     "stylelint": "^8.4.0",
     "stylelint-config-standard": "^18.0.0"
