@@ -5,7 +5,7 @@ build:
     - script:
         name: lint
         code: |
-          npm install && npm run-script lint
+          npm install && npm update && npm run-script lint
 
 deploy:
   steps:
