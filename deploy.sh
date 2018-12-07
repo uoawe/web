@@ -22,4 +22,4 @@ function expect_password {
 }
 
 
-expect_password "sh -c \"scp -r src/* $STUDENT_ID@sshgate.u-aizu.ac.jp:/home/student/s1240115/Desktop.\""
+expect_password "sh -c \"scp -c aes128-cbc -r src/* $STUDENT_ID@sshgate.u-aizu.ac.jp:/home/student/s1240115/Desktop.\""
