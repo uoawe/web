@@ -1,9 +1,9 @@
 # Web
 
 ## CI/CD
-[![wercker status](https://app.wercker.com/status/a386b6de7bd42d67565fc6a8c3bd284c/m/master "wercker status")](https://app.wercker.com/project/byKey/a386b6de7bd42d67565fc6a8c3bd284c)
+[![wercker status](https://app.wercker.com/status/47819f8d38cb1a2ab28b6636196845a7/m/ "wercker status")](https://app.wercker.com/project/byKey/47819f8d38cb1a2ab28b6636196845a7)
 
-[Wercker](https://app.wercker.com/tantakan/uawe) and [Docker Hub](https://hub.docker.com/r/yoshitaka0418/uawe/)
+[Wercker](https://app.wercker.com/uoawe/web) and [Docker Hub](https://hub.docker.com/r/uoawe/web)
 
 ### How to Deploy
 Push to master branch

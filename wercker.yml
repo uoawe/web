@@ -1,0 +1,15 @@
+box: uoawe/web
+
+build:
+  steps:
+    - script:
+        name: lint
+        code: |
+          npm install && npm run-script lint
+
+deploy:
+  steps:
+    - script:
+        name: deploy.sh
+        code: |
+          ./deploy.sh
