@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "htmlhint": "^0.10.1",
+    "stylelint": "^9.9.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "htmlhint src/*.html && eslint src/js/*.js && stylelint src/css/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uoawe/web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uoawe/web/issues"
+  },
+  "homepage": "https://github.com/uoawe/web#readme"
+}
