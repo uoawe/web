@@ -1,120 +1,209 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>会津大学吹奏楽団</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="会津大学吹奏楽団のサイトです">
-  <link rel="stylesheet" href="css/main.css">
+  <meta name="description" content="会津大学吹奏楽団のWebページです。" />
+  <meta name="keywords" content="UoA, 吹奏楽, 会津大, Aizu," />
+  <meta name="author" content="Yoshitaka Niita" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Raleway" rel="stylesheet">
+  <!-- AOS.css -->
+  <link rel="stylesheet" href="css/aos.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+
 </head>
 
-<body>
+<body  data-spy="scroll" data-target="#main-nav" data-offset="200">
+  <!--=================== Page preloader  ====== ==============-->
+  <div id="page-loader"><span class="page-loader-gif"></span></div>
 
-  <header>
-    <div class="inner">
-      <h1 id="logo">
-        <a href="index.html"><img src="images/logo.png" alt="会津大学吹奏楽団"></a>
-      </h1>
-    </div>
-  </header>
-
-  <div id="container">
-
-    <aside id="images">
-      <img src="images/top1.png" id="slide0">
-      <img src="images/top1.png" id="slide1">
-      <img src="images/top2.png" id="slide2">
-    </aside>
-
-    <div id="contents">
-
-      <div id="main">
-        <section>
-          <h2>NEWS</h2>
-          <dl>
-            <h3>団員募集中！</h3>
-            会津大学吹奏楽団では、会津大学、短大生の団員を募集しています。<br>
-            入団したい方や見学希望の方は、<br>
-            ・ 上村 武 (会津大)へのe-mail <a href="mailto:s1260007@u-aizu.ac.jp?subject=会津大学吹奏楽団について">s1260007@u-aizu.ac.jp</a><br>
-            ・ 齋藤 里帆 (会津短大)へのe-mail <a href="mailto:b1201819@jc.u-aizu.ac.jp?subject=会津大学吹奏楽団について">b1201819@jc.u-aizu.ac.jp</a><br>
-            まで連絡してください。<br>
-            短大生で見学希望の方は大学まで案内します!!<br>
-            詳しくは<a href="wanted.html">こちら</a>をご覧ください。<br>
-            <h3>今後の活動予定</h3>
-            <dt>会津大学の学園祭にて演奏予定です!</dt>
-            <dt>2018/10/06 (Sat)　ステージにて演奏予定</dt>
-            <dt>2018/10/07 (Sun)　講堂にて定期演奏会を予定</dt><br>
-          </dl>
-        </section>
-
-        <section id="new">
-          <h2>INFORMATION</h2>
-          <dl>
-            <dt>2018/12/07</dt>
-            <dd>webサイトを更新しました。</dd>
-            <dt>2018/04/21</dt>
-            <dd>webサイトを更新しました。</dd>
-            <dt>2017/03/27</dt>
-            <dd>webサイトをリニューアルしました!</dd>
-            <dt>2017/03/27</dt>
-            <dd>新入生歓迎会の日付を追加しました。</dd>
-            <dt>2014/04/03</dt>
-            <dd>活動報告，集合写真，Twitterアカウント情報を更新しました。</dd>
-            <dt>2013/10/08</dt>
-            <dd>現在ホームページをリニューアル中です。</dd>
-            <dt>2013/09/20</dt>
-            <dd>Membersを更新しました。</dd>
-          </dl>
-        </section>
-
-        <section>
-          <h2>ABOUT</h2>
-          <dl>
-            <dt>
-              当サイトは、会津大学吹奏楽団の公式ウェブサイトです。<br>
-              リンクはフリーですので、ご自由にお張り下さい。<br>
-              また、相互リンクは随時募集しております。<br>
-              尚、URLは http://www.u-aizu.ac.jp/circles/suisougaku/ にお願い致します。<br>
-              <br>
-              また，演奏会情報等，<br>
-              当楽団のニュースをいち早く発信するTwitterアカウント(@UoAWindEnsemble)が出来ました！<br>
-              是非フォローお願い致します！<br>
-            </dt>
-          </dl>
-        </section>
+  <!--===================== Navigater =====================--->
+  <div id="main-nav" class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+          <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+        <!-- ======= LOGO ========-->
+        <a class="navbar-brand scrollto" href="#home"></a>
       </div>
+      <div id="site-nav" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="scrollto">Home</a></li>
+          <li><a href="#info" class="scrollto">Information</a></li>
+          <li><a href="#recruit" class="scrollto">Recruitment</a></li>
+          <li><a href="#address" class="scrollto">Address</a></li>
+          <li><a href="#map" class="scrollto">Map</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-      <div id="sub">
+  <!--====================== Home ========================-->
+  <section id="home" >
+    <div class="container text-center">
+      <h1>University of Aizu</h1>
+      <h1>Wind Ensemble</h1>
+      <p>Welcome to Our Website</p>
+    </div>
+  </section>
 
-        <nav class="box1 menu">
-          <h2>Menu</h2>
-          <ul class="submenu">
-            <li><a href="index.html">Top</a></li>
-            <li><a href="info.html">当楽団について</a></li>
-            <li><a href="wanted.html">団員募集</a></li>
-            <li><a href="member.html">メンバー</a></li>
-            <li><a href="formember.html">団員向け</a></li>
-            <li><a href="link.html">リンク</a></li>
+  <!-- ================== INFORMATION ========================= -->
+  <section id="info"  class="add-padding color1">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+      <div data-aos="zoom-in">
+        <h1 class="section-title big-text">Information</h1>
+      </div>
+      <div class="row" data-aos="flip-right">
+        <div class="col-sm-6" data-aos="fade-up-right">
+          <h2 class="small-section-title">News</h2>
+          <ul class="info-style">
+            <!-- twitter view -->
+            <div class=" twitter-big"><a class="twitter-timeline" href="https://twitter.com/UoAWindEnsemble" data-lang="ja" data-width="1000" data-height="500"  data-chrome="noheader nofooter">UoAWindEnsemble Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+            <div class=" twitter-small"><a class="twitter-timeline" href="https://twitter.com/UoAWindEnsemble" data-lang="ja" data-width="1000" data-height="450"  data-chrome="noheader nofooter" data-tweet-limit="1">UoAWindEnsemble Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
           </ul>
-        </nav>
-
-        <!-- twitter view -->
-        <a class="twitter-timeline" href="https://twitter.com/UoAWindEnsemble" data-tweet-limit="3">@UoAWindEnsembleに関するツイート</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+        </div>
+        <div class="col-sm-6" data-aos="fade-up-left">
+          <h2 class="small-section-title">About Us</h2>
+          <ul class="info-style">
+            <p>
+              会津大学吹奏楽団は、会津大学開学(平成5年4月)と同時に高橋雅之氏を中心に約20名ほどで発足しました。<br><br>
+              創部当時は、楽器もなく個人所有のものだけでだったため、練習もできず、周辺の小・中学校、高等学校に楽器を借りに行く毎日でした。<br><br>
+              平成6年9月に大学に厚生棟ができ、ようやく大学にて練習が本格的に始めることができるようになりました。<br><br>
+              平成9年には第一回定期演奏会を開催、市の交通安全パレードに参加するなど様々なイベントにて演奏をしました。<br><br>
+              現在では、厚生棟の３階会議室にて毎週練習を行っています。また、定期演奏会も第二十回を迎え、創団二十五周年も迎えることができました。<br><br>
+              活動内容としては、毎週の練習、学内外での行事への演奏参加、そして、定期演奏会などです。<br><br>
+              これからも当楽団をよろしくお願いします。<br>
+            </p>
+          </ul>
+        </div>
       </div>
-
     </div>
+  </section>
 
-  </div>
 
-  <script type="text/javascript" src="js/footerFixed.js"></script>
+  <!-- ================== Recruitment ===================== -->
+  <section id="recruit" class="add-padding color2">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+      <div class="row" data-aos="fade-up-right">
+        <div class="col-sm-7 col-md-6 text-left">
+          <div data-aos="zoom-in-left">
+            <h1 class="big-text">RECRUITMENT</h1>
+          </div>
+          <div class="jp" data-aos="flip-right">
+            <p class="lead">会津大学吹奏楽団では、会津大学、短大生の団員を募集しています。<br>入団したい方は以下の連絡先にご連絡ください。</p>
+            <p class="lead">連絡先 /Address</p>
+            <p>・ 上村 武 (会津大)へのe-mail : <br class="br-sp">　<a href="mailto:s1260007@u-aizu.ac.jp?subject=会津大学吹奏楽団について">s1260007@u-aizu.ac.jp</a></p>
+            <p>・ 齋藤 里帆 (会津短大)へのe-mail : <br class="br-sp">　<a href="mailto:b1201819@jc.u-aizu.ac.jp?subject=会津大学吹奏楽団について">b1201819@jc.u-aizu.ac.jp</a></p>
+            <p>&nbsp;</p>
+            <p class="lead">その他 / Further</p>
+            <p>見学は随時受け付けています。</p>
+            <p>平日は月曜日と木曜日の18:30頃に会津大学学生ホール３階の会議室にて活動しています。</p>
+            <p>見学前にはご連絡ください。</p>
+          </div>
+        </div>
+        <div class="col-sm-7 col-md-6 text-right" data-aos="flip-right">
+          <div class="recruit_img"><img src="img/logo2.png" height="500" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== ADDRESS =========================== -->
+  <section id="address"  class="add-padding color3">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+      <div data-aos="slide-down">
+        <h1 class="section-title big-text">Address</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4" data-aos="slide-right">
+          <h2 class="small-section-title">About Web</h2>
+          <ul class="contact-info">
+            <p>当サイトは、会津大学吹奏楽団の公式ウェブサイトです。リンクはフリーです、ご自由にご利用ください。</p>
+            <p class="copy-right">&copy; UNIVERSITY OF AIZU WIND ENSEMBLE All Rights Reserved. </p>
+          </ul>
+        </div>
+        <div class="col-md-4" data-aos="slide-up">
+          <h2 class="small-section-title">Mail Address</h2>
+          <ul class="contact-info">
+            <li><i class="icon-map-marker"></i>福島県会津若松市一箕町上居合９０鶴賀</li>
+            <li><i class="icon-envelope-o"></i>上村 武 (会津大)へのe-mail<br> <a href="mailto:s1260007@u-aizu.ac.jp?subject=会津大学吹奏楽団について">s1260007@u-aizu.ac.jp</a></li>
+            <li><i class="icon-envelope-o"></i> 齋藤 里帆 (会津短大)へのe-mail <br><a href="mailto:b1201819@jc.u-aizu.ac.jp?subject=会津大学吹奏楽団について">b1201819@jc.u-aizu.ac.jp</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4" data-aos="slide-left">
+          <h2 class="small-section-title">Web Address</h2>
+          <ul class="contact-info">
+            <li><i class="icon-globe2"></i><a href="http://www.u-aizu.ac.jp/circles/suisougaku/">http://www.u-aizu.ac.jp/circles/suisougaku/</a></li>
+            <li><i class="icon-youtube"></i><a href="https://www.youtube.com/channel/UCQ5siAOT-0xa-_Wg3t0lB2A">https://www.youtube.com/channel/UCQ5siAOT-0xa-_Wg3t0lB2A</a></li>
+            <li><i class="icon-twitter"></i><a href="https://twitter.com/UoAWindEnsemble">https://twitter.com/UoAWindEnsemble</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================= Map ================================ -->
+  <section id="map" class="add-padding color1">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+      <div class="row">
+        <div class="col-md-12 text-center" data-aos="fade-down">
+          <h1 class="section-title big-text">Map</h1>
+          <div id="addClass-map" class="embed-responsive embed-responsive-16by9" data-aos="fade-up-right">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12657.33196327294!2d139.9278833!3d37.52364705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bdb5c0c4942862a!2z5Lya5rSl5aSn5a2m!5e0!3m2!1sja!2sjp!4v1490599781543" ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================== Footer =========================== -->
+  <footer id="footer">
+    <a href="#" class="gotop"><i class="icon-arrow-up2"></i></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy;University of Aizu Wind Ensemble All Rights Reserved. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <ul class="social social-circle">
+            <li><a href="https://twitter.com/UoAWindEnsemble"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCQ5siAOT-0xa-_Wg3t0lB2A"><i class="icon-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Main -->
+  <script src="js/main.js"></script>
+  <!--tuber-->
+  <script src="js/jquery.tubular.1.0.js"></script>
+  <!-- scrollto -->
+  <script src="js/jquery.scrollto.js"></script>
+  <!-- scrollto -->
+  <script src="js/aos.js"></script>
+  <script> AOS.init({ delay: 0, easing: 'ease-in-out-quad', disable: 'mobile', duration: 1000, }); </script>
+
 </body>
-<footer>
-
-  <div id="copyright" class="copyright">
-    <small>Copyright&copy; University of Aizu Wind Ensemble All Rights Reserved.</small>
-  </div>
-
-</footer>
 </html>

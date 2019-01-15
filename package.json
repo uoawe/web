@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "htmlhint src/*.html && eslint src/js/*.js && stylelint src/css/*.css"
+    "lint": "htmlhint src/index.html && eslint src/js/main.js && stylelint src/css/styles.css"
   },
   "repository": {
     "type": "git",
