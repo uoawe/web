@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	top:50%;
 	left:50%;
 	margin:-32px 0 0 -32px;
-	background: url('/img/preloader.gif') no-repeat;
+	background: url('/images/preloader.gif') no-repeat;
 }
 
 /*--------------------------- Menu Styles -----------------------------*/
@@ -128,7 +128,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	font-weight:300;
 }
 #main-nav.scrolled .navbar-brand{
-	background: url(../img/logo1.png) no-repeat;
+	background: url(../images/logo1.png) no-repeat;
 	background-size:contain !important;
 	width: 244px;
 }
@@ -188,7 +188,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 #home .container{
 	position: fixed;
-	top: 37%;
+	top: 40%;
 	width: 100% !important;
 	margin-top:-120px;
 	z-index: 0;
@@ -494,7 +494,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 		font-size: 21px;
 	}
 	#main-nav .navbar-brand{
-		background: url(../img/logo1.png) no-repeat;
+		background: url(../images/logo1.png) no-repeat;
 		background-size:contain !important;
 		width: 244px;
 	}
@@ -525,5 +525,5 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	height: 100%;
 }
 .overlayPattern {
-	background-image: url(../img/overlay.png);
+	background-image: url(../images/overlay.png);
 }
