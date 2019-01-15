@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
+  var clickEventType = (( window.ontouchstart!==null ) ? 'click':'touchend');
+
   /*------------------------------------Movie-----------------------------------*/
-  var options = { videoId: '8tto16YIatQ'};
+  var options = { videoId: 'TdzxRf_jyyc'};
   $('#home').tubular(options);
   var _ovc = $('<div id="bgOverlayContainer">').appendTo($('body'));
   _ovc.addClass('overlayPattern');
@@ -34,7 +36,7 @@ $(document).ready(function() {
   });
 
   /*------------------------------- ScrollTo Links -------------------------------*/
-  $('a.scrollto').click(function(e){
+  $('a.scrollto').on(clickEventType, function(e){
     $('html,body').scrollTo(this.hash, this.hash, {gap:{y:-70}});
     e.preventDefault();
     if ($('.navbar-collapse').hasClass('in')){
@@ -52,7 +54,7 @@ $(document).ready(function() {
   $('#home .container').css({ 'opacity' : (1.4 - st/400) });
 
   /*--------------------------------------- footer ----------------------------------------*/
-  $('.gotop').click(function () {
+  $('.gotop').on(clickEventType, function () {
     $('body, html').animate({
       scrollTop: 0
     }, 1000);
