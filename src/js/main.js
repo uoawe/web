@@ -2,6 +2,10 @@ $(document).ready(function() {
 
   var clickEventType = (( window.ontouchstart!==null ) ? 'click':'touchend');
 
+  $(window).load(function(){
+    $('html,body').animate({ scrollTop: 0 }, '1');
+  });
+
   /*------------------------------------Movie-----------------------------------*/
   var options = { videoId: 'TdzxRf_jyyc'};
   $('#home').tubular(options);
