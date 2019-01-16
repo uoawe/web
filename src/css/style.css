@@ -501,6 +501,15 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	.recruit_img {
 		display: none;
 	}
+	#tubular-container iframe {　
+        display: none;
+    }
+    #home{
+        background-image: url(../images/poster.png);      
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width:479px){
